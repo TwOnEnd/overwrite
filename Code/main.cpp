@@ -21,6 +21,7 @@ namespace exe {
 int main() {
 	using namespace exe;
 	copyFiles();
-	system(tools::getParameter("process-name").c_str());
+	system("chcp 65001");
+	system(tools::getParameter("start-program-name").c_str());
 	return 0;
 }
