@@ -4,7 +4,7 @@ This is the external exe program backuphelper.dll
 将 overwrite.exe 放入bds根目录下
 
 然后前往 server.properties 文件,加入以下变量
-main-program-name=xxx
+start-program-name=xxx
 
 xxx替换成启动服务器的名称
 
